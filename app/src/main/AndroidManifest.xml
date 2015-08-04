@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="leacock.mrnom"
+    package="leacock.spacegarbage"
     android:versionCode="1"
     android:versionName="1.0"
     android:installLocation="preferExternal">
@@ -20,7 +20,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MrNomGame"
+            android:name="leacock.spacegarbage.SpaceGarbageGame"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:configChanges="keyboard|keyboardHidden|orientation">
